@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-size:contain;
+    background-color: black;
+    padding: 0%;
+    overflow: hidden;
+    background-image: url(img/2400767-dark-widesreen-background-with-hexagons-with-different-transparencies-modern-black-geometric-design-simple-vector-illustration-vetor.jpg);
+
+
+}
+
+*body {
+    box-sizing: border-box;
+    margin: auto;
+    
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lado-esquer{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lado-esquer h1{
+    font-size: 55px;
+    color: #D4FD00;
+    font-family: fantasy;
+    padding-bottom: 480px;
+    padding-right: 100px;
+ 
+}
+
+.img{
+max-width: 700px;
+padding-bottom: 120px;
+align-items: center;
+padding-left: 100px;
+}
+
+.lado-dire{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direito{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.direito h1{
+    color: #D4FD00;
+    font-weight: 800;
+    font-size: 27px;
+}
+
+.texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+}
+
+.texto>input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.texto>label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+
+}
+
+.texto>input:placeholder{
+    color: #f0ffff94;
+}
+ 
+.btn-escrever{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background-color: #D4FD00;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #D4FD00;
+}
+
+.btn-escrever:hover{
+   transform: scale(1.06);
+   transition: all 0.7s;
+}
+
+
+ 
